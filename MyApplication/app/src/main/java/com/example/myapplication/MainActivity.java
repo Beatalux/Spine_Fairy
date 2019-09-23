@@ -38,20 +38,11 @@ public class MainActivity extends AppCompatActivity {
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(Intent.ACTION_SCREEN_OFF);
         intentFilter.addAction(Intent.ACTION_SCREEN_ON);
-        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.Linear);
-        linearLayout.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                switch(event.getAction()) {
-                    case MotionEvent.ACTION_DOWN :
-                        frameLayout.setVisibility(View.VISIBLE);
-                }
-                return true;
-            }
-        });
+
         Intent intent = new Intent(this, UsingTimeUploadWorker.class);
         startActivity(intent);
 
-        //BroadcastReceiver screenOnOff = new BroadcastReceiver() {
+        BroadcastReceiver screenOnOff = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
                 if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
@@ -93,7 +84,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.Linear);
+        linearLayout.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                switch(event.getAction()) {
+                    case MotionEvent.ACTION_DOWN :
+                        frameLayout.setVisibility(View.VISIBLE);
+                }
+                return true;
+            }
+        });
 
     }
 }
