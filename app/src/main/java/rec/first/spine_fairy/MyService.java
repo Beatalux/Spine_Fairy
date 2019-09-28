@@ -16,6 +16,7 @@ import rec.first.spine_fairy.ServiceThread;
 public class MyService extends Service{
 
 
+
     //NotificationManager Notifi_M;
     ServiceThread thread;
     Notification Notifi ;
@@ -36,6 +37,7 @@ public class MyService extends Service{
         myServiceHandler handler = new myServiceHandler();//54줄 콜
         thread = new ServiceThread(handler);//serviceThrad 클래스
         thread.isRun=true;
+
         thread.start();
         return START_STICKY;
     }
@@ -60,38 +62,20 @@ public class MyService extends Service{
 //            Intent intent = new Intent(MyService.this, MainActivity.class);
 //            PendingIntent pendingIntent = PendingIntent.getActivity(MyService.this, 0, intent,PendingIntent.FLAG_UPDATE_CURRENT);
 //
-//            Notifi = new Notification.Builder(getApplicationContext())
-//                    .setContentTitle("Content Title")
-//                    .setContentText("Content Text")
-//                    .setSmallIcon(R.drawable.logo)
-//                    .setTicker("알림!!!")
-//                    .setContentIntent(pendingIntent)
-//                    .build();
 //
-//            //소리추가
-//            Notifi.defaults = Notification.DEFAULT_SOUND;
-//
-//            //알림 소리를 한번만 내도록
-//            Notifi.flags = Notification.FLAG_ONLY_ALERT_ONCE;
-//
-//            //확인하면 자동으로 알림이 제거 되도록
-//            Notifi.flags = Notification.FLAG_AUTO_CANCEL;
-//
-//
-//            Notifi_M.notify( 777 , Notifi);
 
-            int a=PreferenceManager.getInt(context, "Data");
+            //int divide=PreferenceManager.getInt(context, "Data");
 
             //토스트 띄우기
-            if(a/4==0||a/3==1)
-            {Toast.makeText(MyService.this, "척추 펴세요!!!", Toast.LENGTH_LONG).show();}
-            else if(a/4==1){
+            //if(divide/4==0||a/4==1)
+            Toast.makeText(MyService.this, "척추 펴세요!!!", Toast.LENGTH_LONG).show();
+            /*else if(a/4==2){
                 Intent intent=new Intent(getApplicationContext(), PicToastActivity.class);
                 startActivity(intent);
             }
             else
             {Intent intent=new Intent(getApplicationContext(),PopupActivityforMove.class);
-                startActivity(intent);}
+                startActivity(intent);}*/
 
         }
     }

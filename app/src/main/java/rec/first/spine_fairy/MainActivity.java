@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         if(firstUser==-1){
             Log.d("유저", "신규");
             Intent intent = new Intent(MainActivity.this,SettingActivity.class);
-            startService(intent);
+            startActivity(intent);
             PreferenceManager.setInt(context, FIRST_USER_KEY,1);
         }
         else {
