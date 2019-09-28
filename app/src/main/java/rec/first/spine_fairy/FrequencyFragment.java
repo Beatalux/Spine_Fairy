@@ -25,6 +25,11 @@ import android.widget.Toast;
  */
 public class FrequencyFragment extends Fragment {
 
+    public interface OnMyListener{
+        void sendInput(String input);
+    }
+    public OnMyListener onMyListener;
+
 
     /*public interface OnMyListener{
         void onReceivedData(String frequency);
@@ -47,6 +52,7 @@ public class FrequencyFragment extends Fragment {
                              Bundle savedInstanceState) {
         mcontext = container.getContext();
         View view = inflater.inflate(R.layout.fragment_frequency, container, false);
+        frameLayout=view.findViewById(R.id.container);
 
 
 
@@ -56,13 +62,16 @@ public class FrequencyFragment extends Fragment {
 
         if (radioButton.isChecked()) {
             frequency = "자주";
-            PreferenceManager.setString(mcontext, key, frequency);
+            //PreferenceManager.setString(mcontext, key, frequency);
+            onMyListener.sendInput("자주");
         } else if (radioButton2.isChecked()) {
             frequency = "보통";
-            PreferenceManager.setString(mcontext, key, frequency);
+            onMyListener.sendInput("보통");
+            //PreferenceManager.setString(mcontext, key, frequency);
         } else if (radioButton3.isChecked()) {
             frequency = "가끔";
-            PreferenceManager.setString(mcontext, key, frequency);
+            onMyListener.sendInput("가끔");
+            //PreferenceManager.setString(mcontext, key, frequency);
         }
 
 
