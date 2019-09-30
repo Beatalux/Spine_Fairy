@@ -4,34 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="wrap_content"
-    android:layout_height="300dp"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".PicToastActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="척추요정"
         android:textSize="10dp"
+        android:fontFamily="@font/godomaum"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView_fairyposture"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/test_uni" />
         <ImageView
             android:id="@+id/imageView_badposture"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/bad0" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/bad4" />
 
 
     </LinearLayout>

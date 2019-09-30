@@ -2,12 +2,18 @@ package rec.first.spine_fairy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Display;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -15,63 +21,60 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class PicToastActivity extends AppCompatActivity {
-    FrameLayout badposture;
-    ImageView bad0=findViewById(R.id.bad0);
-    ImageView bad1=(ImageView)findViewById(R.id.bad1);
-    ImageView bad2=findViewById(R.id.bad2);
-    ImageView bad3=findViewById(R.id.bad3);
-    ImageView bad4=findViewById(R.id.bad4);
-    ImageView bad5=findViewById(R.id.bad5);
+    ImageView iv1,iv2;
 
-    Random rnd = new Random();
-    int badnum = rnd.nextInt(5);
+    //int[]img={R.drawable.bad0, R.drawable.bad1, R.drawable.bad2, R.drawable.bad3, R.drawable.bad4, R.drawable.bad5};
+
+
+    Context context;
+    private int mScreenWidth,mScreenHeight;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pic_toast);
+        //setContentView(R.layout.activity_pic_toast);
 
-        Intent intent = getIntent();
-        int move = intent.getIntExtra("badpic",0);
+        context=getApplicationContext();
 
 
-        LayoutInflater inflater = getLayoutInflater();
 
-        changeView(badnum);
+        Log.i("인텐트","받음");
 
-        View view = inflater.inflate(R.layout.activity_pic_toast,
-                (ViewGroup) findViewById(R.id.linearLayout));
+        //Display display=((WindowManager)getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
+        //mScreenWidth=display.getWidth();
 
-        Toast toast = new Toast(this);
-        toast.setView(view);
+
+
+        Random rnd = new Random();
+        int badnum = rnd.nextInt(5);
+
+
+        Toast toast = new Toast(context);
+
+        switch(badnum){
+            case 0:toast.setView(getLayoutInflater().inflate(R.layout.activity_pic_toast,null));
+                break;
+
+            case 1:toast.setView(getLayoutInflater().inflate(R.layout.activity_pic_toast1,null));
+                break;
+            case 2:toast.setView(getLayoutInflater().inflate(R.layout.activity_pic_toast2,null));
+                break;
+            case 3:toast.setView(getLayoutInflater().inflate(R.layout.activity_pic_toast3,null));
+                break;
+            case 4:toast.setView(getLayoutInflater().inflate(R.layout.activity_pic_toast4,null));
+                break;
+            case 5:toast.setView(getLayoutInflater().inflate(R.layout.activity_pic_toast5,null));
+                break;
+
+        }
+
+        toast.setGravity(Gravity.CENTER,0,0);
+        toast.setDuration(Toast.LENGTH_SHORT);
         toast.show();
     }
 
-    void changeView(int badnum) {
-
-        badposture.removeViewAt(0) ;
-
-        switch (badnum) {
-            case 0 :
-                badposture.addView(bad0) ;
-                break ;
-            case 1 :
-                badposture.addView(bad1) ;
-                break ;
-            case 2 :
-                badposture.addView(bad2) ;
-                break ;
-            case 3:
-                badposture.addView(bad3) ;
-                break ;
-            case 4:
-                badposture.addView(bad4) ;
-                break ;
-            case 5:
-                badposture.addView(bad5) ;
-                break ;
 
 
-        }
-    }
 }
