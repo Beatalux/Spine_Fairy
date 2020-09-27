@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidStudioProjects\\Doit_Android_Programming_6th\\DoItAndroid-master\\part2\\chapter05\\SampleDrawer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Anat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\838fd03a22c5aa3b17f59f2b91d5805c\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

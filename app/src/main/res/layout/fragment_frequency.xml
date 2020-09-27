@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FrequencyFragment">
+    tools:context=".FrequencyFragment"
+    android:background="@drawable/optiondisplay">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -28,12 +29,7 @@
                 android:fontFamily="@font/godomaum"
                 android:text="다음" /> -->
 
-            <ImageButton
-                android:id="@+id/button"
-                android:layout_width="185dp"
-                android:layout_height="72dp"
-                android:layout_gravity="bottom|center_horizontal"
-                android:src="@drawable/optionlogo" />
+
 
             <RadioGroup
                 android:id="@+id/radiogroup"
@@ -72,14 +68,17 @@
 
             </RadioGroup>
 
-            <!-- <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="50dp"
-                android:fontFamily="@font/bmjua_ttf"
-                android:text="얼마나 자주?"
-                android:textSize="30sp" /> -->
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/godomaum"
+                android:text="설정완료!"
+                android:textSize="23dp" />
+
+
 
         </FrameLayout>
 
@@ -88,35 +87,35 @@
             android:layout_height="190dp"
             android:orientation="vertical">
 
-            <ImageView
+            <!--<ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/optioncutver" />
+                android:src="@drawable/optioncutver" /> -->
         </LinearLayout>
 
-            <com.google.android.gms.ads.AdView
+        <com.google.android.gms.ads.AdView
 
-                xmlns:ads="http://schemas.android.com/apk/res-auto"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
 
-                android:id="@+id/adView"
+            android:id="@+id/adView"
 
-                android:layout_width="wrap_content"
-
-
-                android:layout_height="wrap_content"
-
-                android:layout_gravity="center"
+            android:layout_width="wrap_content"
 
 
+            android:layout_height="wrap_content"
 
-                ads:adSize="BANNER"
-
-                ads:adUnitId="@string/banner_ad_unit_id_for_test">
+            android:layout_gravity="center"
 
 
 
-            </com.google.android.gms.ads.AdView>
+            ads:adSize="BANNER"
+
+            ads:adUnitId="@string/banner_ad_unit_id">
+
+
+
+        </com.google.android.gms.ads.AdView>
 
 
 

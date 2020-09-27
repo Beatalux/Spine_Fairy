@@ -1,0 +1,334 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\e812b016afde8ce75532d07192c14782\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\25fe3e20496b3eb1773efc45236c2654\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\b80debed6a5cdd8fabccd67b3977b063\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8abd3ac66700353a66a40422a868f022\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\77e383c6887716ab75f1a0b6125235b0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2384279bf0661e586e117c9ea461d2e1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\02a041680447087be87bb69e79b56410\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a635565c58cb6a54124c8d34651f2912\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2dff95d7ce93a7230e12a5e14b9d25e8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\ae542f05ec708f27794914404142b856\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\6c67ecd5484d743097f87425250f87b2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2e442f80357b0f63b28062bc7e478f41\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\f486c41087fa92c2430b697cf16500ee\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7dc18a738333210ce23a369b1bb56704\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\b0253c93939578ff153f7e52fbef007b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2cb2367e12b1a88597cc452c4f2a3106\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\9c59eb841cb6fc41553605986cb7c981\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\3fd37e8dabaefae18f4099ce9f8200c4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\26b29ee09dcc0d2f251e362d63095b3b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\d623ee4091a5618c94ac7444ba2d1eb8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7c0c4d018b6439032e68b791845040fe\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\392d68801e7a7cbfe9252ff44d235897\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4166273d6afb07b467b2e100903a54b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7231ade065c49b75e60f7585e21f1aa5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\23e224c44a9d60543b36c044faec6aee\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7b135d12e096ceb28785f99ae2bffb49\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\e37564546cfd0a6286c170a76aeaacae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4f17a193c33210323d78e8431636d19d\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\866c5ab37cf0341fae90febee3998289\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\970518497816a2c551b2a440bcaee128\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8f317929c0f0a8c9ba7565d6588e953a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a34ad26a6f54ba9688ae296ef9218a42\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\5072a6db51e208da8dc90d8dad4b0c4d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\1eace59e6c064d758e25e1ce72f2b733\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\20b5cbe363a1aa0425255a9cc3fd31c3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\adadf549f153d4c73dcaccb9864f9792\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\98231906866da1f9a13874bebf33665f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\23271db25cc5b7fd26f194f9d31b6e56\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:22:5-35:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\25fe3e20496b3eb1773efc45236c2654\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\25fe3e20496b3eb1773efc45236c2654\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8abd3ac66700353a66a40422a868f022\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8abd3ac66700353a66a40422a868f022\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\77e383c6887716ab75f1a0b6125235b0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\77e383c6887716ab75f1a0b6125235b0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2384279bf0661e586e117c9ea461d2e1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2384279bf0661e586e117c9ea461d2e1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\02a041680447087be87bb69e79b56410\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\02a041680447087be87bb69e79b56410\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a635565c58cb6a54124c8d34651f2912\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a635565c58cb6a54124c8d34651f2912\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7b135d12e096ceb28785f99ae2bffb49\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7b135d12e096ceb28785f99ae2bffb49\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4f17a193c33210323d78e8431636d19d\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4f17a193c33210323d78e8431636d19d\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7b135d12e096ceb28785f99ae2bffb49\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:13:9-40
+service#org.techtown.doitmission29.MyFirebaseMessagingService
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:14:9-22:19
+	android:enabled
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:16:13-35
+	android:exported
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:17:13-36
+	android:stopWithTask
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:18:13-41
+	android:name
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:15:13-55
+intent-filter#action:name:com.google.fairebase.MESSAGING_EVENT
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:19:13-21:29
+action#com.google.fairebase.MESSAGING_EVENT
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:20:25-76
+activity#org.techtown.doitmission29.MainActivity
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\e812b016afde8ce75532d07192c14782\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\e812b016afde8ce75532d07192c14782\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\25fe3e20496b3eb1773efc45236c2654\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\25fe3e20496b3eb1773efc45236c2654\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\b80debed6a5cdd8fabccd67b3977b063\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\b80debed6a5cdd8fabccd67b3977b063\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8abd3ac66700353a66a40422a868f022\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8abd3ac66700353a66a40422a868f022\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\77e383c6887716ab75f1a0b6125235b0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\77e383c6887716ab75f1a0b6125235b0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2384279bf0661e586e117c9ea461d2e1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2384279bf0661e586e117c9ea461d2e1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\02a041680447087be87bb69e79b56410\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\02a041680447087be87bb69e79b56410\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a635565c58cb6a54124c8d34651f2912\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a635565c58cb6a54124c8d34651f2912\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2dff95d7ce93a7230e12a5e14b9d25e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2dff95d7ce93a7230e12a5e14b9d25e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\ae542f05ec708f27794914404142b856\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\ae542f05ec708f27794914404142b856\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\6c67ecd5484d743097f87425250f87b2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\6c67ecd5484d743097f87425250f87b2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2e442f80357b0f63b28062bc7e478f41\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2e442f80357b0f63b28062bc7e478f41\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\f486c41087fa92c2430b697cf16500ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\f486c41087fa92c2430b697cf16500ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7dc18a738333210ce23a369b1bb56704\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7dc18a738333210ce23a369b1bb56704\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\b0253c93939578ff153f7e52fbef007b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\b0253c93939578ff153f7e52fbef007b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2cb2367e12b1a88597cc452c4f2a3106\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\2cb2367e12b1a88597cc452c4f2a3106\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\9c59eb841cb6fc41553605986cb7c981\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\9c59eb841cb6fc41553605986cb7c981\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\3fd37e8dabaefae18f4099ce9f8200c4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\3fd37e8dabaefae18f4099ce9f8200c4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\26b29ee09dcc0d2f251e362d63095b3b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\26b29ee09dcc0d2f251e362d63095b3b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\d623ee4091a5618c94ac7444ba2d1eb8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\d623ee4091a5618c94ac7444ba2d1eb8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7c0c4d018b6439032e68b791845040fe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7c0c4d018b6439032e68b791845040fe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\392d68801e7a7cbfe9252ff44d235897\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\392d68801e7a7cbfe9252ff44d235897\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4166273d6afb07b467b2e100903a54b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4166273d6afb07b467b2e100903a54b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7231ade065c49b75e60f7585e21f1aa5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7231ade065c49b75e60f7585e21f1aa5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\23e224c44a9d60543b36c044faec6aee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\23e224c44a9d60543b36c044faec6aee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7b135d12e096ceb28785f99ae2bffb49\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\7b135d12e096ceb28785f99ae2bffb49\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\e37564546cfd0a6286c170a76aeaacae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\e37564546cfd0a6286c170a76aeaacae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4f17a193c33210323d78e8431636d19d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\4f17a193c33210323d78e8431636d19d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\866c5ab37cf0341fae90febee3998289\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\866c5ab37cf0341fae90febee3998289\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\970518497816a2c551b2a440bcaee128\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\970518497816a2c551b2a440bcaee128\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8f317929c0f0a8c9ba7565d6588e953a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8f317929c0f0a8c9ba7565d6588e953a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a34ad26a6f54ba9688ae296ef9218a42\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a34ad26a6f54ba9688ae296ef9218a42\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\5072a6db51e208da8dc90d8dad4b0c4d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\5072a6db51e208da8dc90d8dad4b0c4d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\1eace59e6c064d758e25e1ce72f2b733\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\1eace59e6c064d758e25e1ce72f2b733\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\20b5cbe363a1aa0425255a9cc3fd31c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\20b5cbe363a1aa0425255a9cc3fd31c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\adadf549f153d4c73dcaccb9864f9792\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\adadf549f153d4c73dcaccb9864f9792\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\98231906866da1f9a13874bebf33665f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\98231906866da1f9a13874bebf33665f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\23271db25cc5b7fd26f194f9d31b6e56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\23271db25cc5b7fd26f194f9d31b6e56\AndroidManifest.xml:20:5-44
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		ADDED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AS Projects\DoItMission29\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\a3d46d1319f3fcc88ed0585a80fc723e\AndroidManifest.xml:32:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\76fb992f6e4a2f6f766ae1888cee55a5\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\cf7efbe084ad99be4eddca59e3caca15\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8bb0e63c66d20a714a48b60e6eab16d6\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Anat\.gradle\caches\transforms-2\files-2.1\8d62b0b33a44319907b8ece82f2d1790\AndroidManifest.xml:24:13-58

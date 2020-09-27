@@ -1,0 +1,4 @@
+#Wed Aug 14 20:39:50 KST 2019
+base.0=D\:\\AndroidStudioProjects\\Doit_Android_Programming_6th\\DoItAndroid-master\\part2\\chapter05\\SampleDrawer\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

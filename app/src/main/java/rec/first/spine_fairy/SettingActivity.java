@@ -17,7 +17,7 @@ import static android.widget.Toast.LENGTH_SHORT;
 import static androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT;
 
 public class SettingActivity extends AppCompatActivity {
-    private InterstitialAd mInterstitialAd;
+    //private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class SettingActivity extends AppCompatActivity {
         Log.i("인텐트", "받음");
 
 
-        
+
         Fragment[] arrFragments = new Fragment[1];//처음 앱 깔았을 때 설정위해
         arrFragments[0] = new FrequencyFragment();
         ViewPager viewPager = (ViewPager) findViewById(R.id.setting_view);

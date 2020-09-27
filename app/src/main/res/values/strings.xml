@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Spine_Fairy</string>
-    <string name="admob_app_id">ca-app-pub-4590464835740991~8142017623</string>
+    <string name="admob_app_id">ca-app-pub-8331586517175462~4479072388</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-4590464835740991/6693204580</string>
-    <string name="front_ad_unit_id">ca-app-pub-4590464835740991/8977421293</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8331586517175462/5937841325</string>
+    <string name="front_ad_unit_id">ca-app-pub-8331586517175462/5436930833</string>
 
-    <string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="front_ad_unit_id_for_test">ca-app-pub-3940256099942544/8691691433</string>
+    <!--<string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="front_ad_unit_id_for_test">ca-app-pub-3940256099942544/8691691433</string>-->
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

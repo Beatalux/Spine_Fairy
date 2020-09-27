@@ -2,6 +2,9 @@ package rec.first.spine_fairy;
 
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,6 +14,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -21,6 +25,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
@@ -29,6 +34,8 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 
+import java.util.Calendar;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -36,12 +43,8 @@ import com.google.android.gms.ads.MobileAds;
 public class FrequencyFragment extends Fragment implements RadioGroup.OnCheckedChangeListener {
 
 
-    /*public interface OnMyListener{
-        void onReceivedData(String frequency);
-    }
 
-    public OnMyListener onMyListener;*/
-
+    private Activity activity;
     private FrameLayout frameLayout;
     public String frequency;//지워도 될듯
     public final String key="FREQUENCY_KEY";
@@ -54,10 +57,6 @@ public class FrequencyFragment extends Fragment implements RadioGroup.OnCheckedC
     }
 
 
-
-
-
-
     @SuppressLint("ClickableViewAccessibility")
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -66,15 +65,12 @@ public class FrequencyFragment extends Fragment implements RadioGroup.OnCheckedC
 
         frameLayout = view.findViewById(R.id.container);
 
-
-frequency=PreferenceManager.getString(mcontext,key);
-        RadioButton radioButton = view.findViewById(R.id.radioButton);
-        RadioButton radioButton2 = view.findViewById(R.id.radioButton2);
-        RadioButton radioButton3 = view.findViewById(R.id.radioButton3);
+        frequency=PreferenceManager.getString(mcontext,key);
+        final RadioButton radioButton = view.findViewById(R.id.radioButton);
+        final RadioButton radioButton2 = view.findViewById(R.id.radioButton2);
+        final RadioButton radioButton3 = view.findViewById(R.id.radioButton3);
         RadioGroup radioGroup=view.findViewById(R.id.radiogroup);
         radioGroup.setOnCheckedChangeListener(this);
-
-
 
         MobileAds.initialize(getActivity(), getString(R.string.admob_app_id));
         mAdView  =view.findViewById(R.id.adView);
@@ -113,7 +109,7 @@ frequency=PreferenceManager.getString(mcontext,key);
         });
 
         mInterstitialAd = new InterstitialAd(getActivity());
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712" );
+        mInterstitialAd.setAdUnitId("@string/front_ad_unit_id" );
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         mInterstitialAd.setAdListener(new AdListener() {
@@ -153,18 +149,28 @@ frequency=PreferenceManager.getString(mcontext,key);
             radioButton3.setChecked(true);
 
 
-
-
-        ImageButton button = view.findViewById(R.id.button);
+        Button button = view.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (frequency==null)
+                if (!(radioButton.isChecked()||radioButton2.isChecked()||radioButton3.isChecked()))
                     Toast.makeText(getContext(), "체크해주세요", Toast.LENGTH_LONG).show();
                 else {
                     Log.i("확인","왔딴다");
-                    Intent goback=new Intent(getActivity(),MainActivity.class);
-                    startActivity(goback);
+
+                    LayoutInflater inflater1 = getLayoutInflater();
+                    View layout = inflater1.inflate(R.layout.activity_toast, (ViewGroup) view.findViewById(R.id.toast_layout_root));
+              //      TextView text = (TextView)layout.findViewById(R.id.text);
+              //      text.setText("설정이 완료되었습니다!");
+                    Toast toast = new Toast(mcontext.getApplicationContext());
+                    toast.setGravity(Gravity.CENTER,0,0);
+                    toast.setDuration(Toast.LENGTH_SHORT);
+                    toast.setView(layout);
+                    toast.show();
+
+
+
+                    activity.finish();
 
                     //다음화면넘기기
              }
@@ -177,11 +183,11 @@ frequency=PreferenceManager.getString(mcontext,key);
                 switch (event.getAction()) {
 
                     case MotionEvent.ACTION_DOWN: {
-                        if (mInterstitialAd.isLoaded()) {
+                       /* if (mInterstitialAd.isLoaded()) {
                             mInterstitialAd.show();
                         } else {
                             Log.d("TAG", "The interstitial wasn't loaded yet.");
-                        }
+                        }*/
 
                         frameLayout.setVisibility(View.VISIBLE);
                     }
@@ -195,7 +201,15 @@ frequency=PreferenceManager.getString(mcontext,key);
 
 
 
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
 
+        if (context instanceof Activity) {
+            activity = (Activity) context;
+        }
+
+    }
 
 
     /*public void onAttach(Context context){
@@ -209,6 +223,10 @@ frequency=PreferenceManager.getString(mcontext,key);
 
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
+        //알람설정
+
+        //알람시간 calendar에 set해주기
+
         switch (checkedId)
         {
             case R.id.radioButton:
@@ -217,19 +235,22 @@ frequency=PreferenceManager.getString(mcontext,key);
 
                 break;
             case R.id.radioButton2:
-
                 frequency = "보통";
                 PreferenceManager.setString(mcontext, key, frequency);
+
                 break;
             case R.id.radioButton3:
-
                 frequency = "가끔";
                 PreferenceManager.setString(mcontext, key, frequency);
+
                 break;
 
         }
+
+//알람설정끝
     }
     }
+
 
 
 

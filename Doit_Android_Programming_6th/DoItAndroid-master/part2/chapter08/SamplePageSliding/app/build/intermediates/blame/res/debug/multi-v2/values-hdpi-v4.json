@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AS Projects\\Doit_Android_Programming_6th\\DoItAndroid-master\\part2\\chapter08\\SamplePageSliding\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Anat\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\838fd03a22c5aa3b17f59f2b91d5805c\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rec.first.spine_fairy">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/appicon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
+        <receiver android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
         <meta-data
 
             android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -25,33 +33,21 @@
             android:label="Spine_Fairy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".MainActivity"/>
         <activity android:name=".SettingActivity">
             <meta-data
 
                 android:name="com.google.android.gms.ads.APPLICATION_ID"
-
                 android:value="@string/admob_app_id"/>
         </activity>
-        <activity android:name=".PicToastActivity"/>
-            <!--android:theme="@style/Theme.Transparent"-->
+        <!--android:theme="@style/Theme.Transparent"-->
 
-        <activity
-            android:name=".PopupActivityforMove"
-            android:theme="@android:style/Theme.Dialog" />
-        <activity android:name=".MainActivity">
-
-        </activity>
         <receiver android:name=".BroadcastD"></receiver>
-
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true" />
+<receiver android:name=".Broadcast"></receiver>
     </application>
 
 </manifest>
